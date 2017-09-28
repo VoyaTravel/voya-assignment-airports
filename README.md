@@ -6,7 +6,7 @@ This repo contains a set of specifications for a project that FE candidates must
 
 It also contains a simplistic server implementation that provides authentication & airport search functionality. This should be used as the BE resource while implementig the FE project.
 
-### Requirements
+## Requirements
 
 Implement an app with login and airport search functionality, using Angular framework, featuring two pages: **Login** and **Airports**.
 
@@ -37,7 +37,7 @@ Implement an app with login and airport search functionality, using Angular fram
 - email: `test@email.com`
 - password: `test123`
 
-### Server setup
+## Server setup
 
 Requires `node` & `npm`.
 
@@ -46,7 +46,7 @@ Run `npm install` to setup.
 Run `npm run serve` to start the server.
 
 
-### Server API
+## Server API
 
 #### `POST /api/login`
 ```
