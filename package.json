@@ -1,0 +1,32 @@
+{
+  "name": "voya-assignment-airports",
+  "version": "1.0.0",
+  "description": "Technical assignment for FE candidates",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-dev": "nodemon server.js",
+    "serve": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoyaTravel/voya-assignment-airports.git"
+  },
+  "keywords": [
+    "voya",
+    "assignment"
+  ],
+  "author": "Andrei Cojea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VoyaTravel/voya-assignment-airports/issues"
+  },
+  "homepage": "https://github.com/VoyaTravel/voya-assignment-airports#readme",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
