@@ -21,7 +21,7 @@ server.route({
     handler: function (request, reply) {
         var payload = request.payload;
 
-        if(payload && payload.username == 'test' && payload.password == 'test'){
+        if(payload && payload.email == 'test@email.com' && payload.password == 'test123'){
             var tokenResp = {
                 token: dummyValidToken
             };
